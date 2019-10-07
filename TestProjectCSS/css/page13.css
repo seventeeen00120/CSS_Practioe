@@ -1,0 +1,25 @@
+table{
+    border:3px black solid;
+    border-collapse: collapse;
+}
+
+th,td{
+    border:2px red dashed;
+    padding:3px;
+}
+tr:nth-child(even){
+    background-color:lightpink;
+}
+
+tr:hover{
+    background-color:darkcyan;
+}
+
+dl{
+    width:150px;
+    background-color:lightblue;
+}
+
+dt:hover,dd:hover{
+    background:yellow;
+}

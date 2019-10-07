@@ -1,0 +1,34 @@
+/*img有alt屬性的選擇器設定*/
+img[alt]{   
+    border:3px solid blue;
+    width:60%
+}
+
+img[title="star"]
+{
+    border:3px solid green;
+    width:60%
+}
+
+/*title裡有 Crayon單字*/
+img[title~= Crayon]{
+    border:5px solid black;
+    width:60%;
+}
+
+/*title裡有 Cro字串*/
+img[title*= cro]{
+    border:5px solid lightpink;
+    width:60%;
+}
+/*title開頭為Pi字串*/
+img[title^= pi]{
+    border:5px solid lightpink;
+    width:60%;
+}
+
+/*title開頭為Pi字串*/
+img[title$= ig]{
+    border:5px solid lightpink;
+    width:60%;
+}

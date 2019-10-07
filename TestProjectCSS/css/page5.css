@@ -1,0 +1,55 @@
+p{
+    font:16px normal bold sans-serif,"新細明體";
+    color:orange;
+}
+
+/*p底下的span標籤  子孫選擇器*/
+p span{
+    font-size:20px;
+    color:darkblue;
+}
+
+.font1{
+    font:28px normal bold sans-serif,"新細明體";
+    color:olivedrab;
+}
+
+.font1 span{
+    font-size:20px;
+    color:darkgreen;
+}
+
+#font2{
+    font:30px normal bold sans-serif,"新細明體";
+    color:brown;
+}
+
+#font2 span{
+    font-size:20px;
+    color:burlywood;
+}
+
+/*子孫選擇器、子選擇器*/
+
+li{
+    list-style-type: decimal;
+}
+
+/*ID myUL下面的li type都是circle*/
+#myUL1 li{
+    list-style-type: circle;
+}
+
+#myUL2>li{
+    list-style-type: lower-alpha;
+}
+
+/*同層相鄰選擇器*/
+#ex1 +ul{
+    background-color:lightyellow;
+}
+
+/*同層全體選擇器*/
+#ex2 ~ul{
+    background-color:chocolate;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-TW">   <!--中文字體設定-->
+    <head>
+        <title>CSS選擇器</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./css/page5.css">
+        <!--<script src="./javascript/index.js"></script>-->
+    </head>
+    <body>
+        <div>
+        <p>套用<span>標籤P</span>的文字</p>
+        <p class="font1">套用<span>標籤P</span>的文字</p>
+        <p id="font2">套用<span>標籤P</span>的文字</p>
+        </div>
+        <div>
+          <ul>
+              <li>Apple</li>
+              <ul id="myUL1">
+                  <li>Apple-1</li>
+                  <li>Apple-2</li>
+                  <ul>
+                      <li>Apple-2-1</li>
+                      <li>Apple-2-2</li>
+                  </ul>
+                  <li>Apple-3</li>
+              </ul>
+              <li>Apple</li>
+              <ul id="myUL2">   <!--只有在id=myUL2這層的li type改變-->
+                  <li>Apple-1</li>
+                  <li>Apple-2</li>
+                  <ul>
+                      <li>Apple-2-1</li>
+                      <li>Apple-2-2</li>
+                  </ul>
+                  <li>Apple-3</li>
+              </ul>
+        </div>
+            <div>
+              <h2 id="ex1">清單A到B</h2>
+                <ul>
+                  <li>A</li>
+                  <li>B</li>
+                </ul>
+              <h2 >清單C到D</h2>
+                <ul>
+                  <li>C</li>
+                  <li>D</li>
+                </ul>
+            </div>
+            
+             <div>
+              <h2 id="ex2">清單A到B</h2>
+                <ul>
+                  <li>A</li>
+                  <li>B</li>
+                </ul>
+              <h2 >清單C到D</h2>
+                <ul>
+                  <li>C</li>
+                  <li>D</li>
+                </ul>
+            </div>
+    </body>
+    <foot>
+        <a href="index.html">回首頁</a>
+    </foot>
+</html>
